@@ -6,7 +6,7 @@ import { MessengerComponent } from "../Chat/MessengerComponent";
 import ProfileComponent from "../Profile/ProfileComponent";
 import ChangePasswordComponent from "../Profile/ChangePasswordComponent";
 
-export const routes =
+const routes =
   {
     path: '',
     children: [
@@ -47,3 +47,5 @@ export const routes =
       }
     ],
   };
+
+export default routes;

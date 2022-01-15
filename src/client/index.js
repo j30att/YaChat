@@ -1,5 +1,5 @@
 import styles from "./shared/css/common.scss"
-import routes from "./routes/routes.js"
+import routes from "./routes/Routes"
 import RouterService from "./services/RouterService";
 import RenderService from "./services/RenderService";
 import RouterLinkDirective from "./shared/directives/RouterLinkDirective";
