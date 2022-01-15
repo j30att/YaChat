@@ -1,5 +1,5 @@
 import styles from "./shared/css/common.scss"
-import ChatService from "./services/ChatService";
+import ChatService from "./services/ChatService.js";
 import RouterService from "./services/RouterService";
 import RenderService from "./services/RenderService";
 import RouterLinkDirective from "./shared/directives/RouterLinkDirective";
