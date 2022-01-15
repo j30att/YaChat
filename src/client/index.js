@@ -1,5 +1,5 @@
-import routes from "./src/client/Routes";
-import styles from "./src/client/shared/css/common.scss"
+import routes from "/opt/build/repo/src/client/Routes";
+import styles from "/opt/build/repo/src/client/shared/css/common.scss"
 import ChatService from "./services/ChatService.js";
 import RouterService from "./services/RouterService";
 import RenderService from "./services/RenderService";
