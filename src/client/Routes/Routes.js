@@ -1,10 +1,10 @@
-import { LogInComponent } from "../Auth/LogInComponent";
-import { RegisterComponent } from "../Auth/RegisterComponent";
-import { LayoutComponent } from "../Layouts/LayoutComponent";
-import { ChatManagerComponent } from "../Chat/ChatManagerComponent";
-import { MessengerComponent } from "../Chat/MessengerComponent";
 import ProfileComponent from "../Profile/ProfileComponent";
 import ChangePasswordComponent from "../Profile/ChangePasswordComponent";
+import MessengerComponent from "../chat/MessengerComponent";
+import ChatManagerComponent from "../chat/ChatManagerComponent";
+import LayoutComponent from "../layouts/LayoutComponent";
+import LogInComponent from "../auth/LogInComponent";
+import RegisterComponent from "../auth/RegisterComponent";
 
 const routes =
   {

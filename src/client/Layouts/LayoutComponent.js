@@ -1,7 +1,7 @@
 import BaseComponent from "../shared/components/BaseComponent/BaseComponent";
 import styles from "./LayoutComponent.module.scss"
 
-export class LayoutComponent extends BaseComponent{
+export default class LayoutComponent extends BaseComponent{
   _template = `
       <div class="{{styles.auth-layout}}">  
         <router>

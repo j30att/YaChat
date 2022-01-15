@@ -4,7 +4,7 @@ import BaseComponent from "../shared/components/BaseComponent/BaseComponent";
 
 const Handlebars = require("handlebars");
 
-export class RegisterComponent extends BaseComponent{
+export default class RegisterComponent extends BaseComponent{
   _template = `
     <div class="{{ styles.card }}">
       <h1 class="{{ styles.title }}">{{title}}</h1>

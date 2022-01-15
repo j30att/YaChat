@@ -8,7 +8,7 @@ import { pointSvg } from "../Shared/icon/point.svg"
 import { MenuModalComponent } from "./MenuModalComponent";
 
 
-export class MessengerComponent extends BaseComponent {
+export default class MessengerComponent extends BaseComponent {
   _template = `
       <div class="{{styles.messengerWrapper}}">
         <div class="{{styles.header}}">

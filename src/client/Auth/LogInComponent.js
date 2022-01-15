@@ -2,7 +2,7 @@
 import styles from "../shared/css/AuthFroms.module.scss"
 import BaseComponent from "../shared/components/BaseComponent/BaseComponent";
 
-export class LogInComponent extends BaseComponent {
+export default class LogInComponent extends BaseComponent {
 
   _renderTemplate = '';
   _template = `
