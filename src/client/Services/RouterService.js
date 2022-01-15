@@ -1,5 +1,4 @@
 export default class RouterService {
-
   constructor(routeList) {
     this._tree = routeList;
     this._path = this.generatePath();
