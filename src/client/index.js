@@ -1,18 +1,18 @@
 import styles from "./shared/css/common.scss"
+import ChatService from "./services/ChatService";
 import RouterService from "./services/RouterService";
 import RenderService from "./services/RenderService";
 import RouterLinkDirective from "./shared/directives/RouterLinkDirective";
 import ServiceLocator from "./services/ServiceLocator";
-import ChatService from "./services/ChatService";
 import ProfileService from "./services/ProfileService";
 import routes from "./Routes";
 
 const root = document.querySelector('#root');
 document.body.className = styles.clear;
 
-const locator = new ServiceLocator();
-const router = new RouterService(routes);
 const chatService = new ChatService();
+const router = new RouterService(routes);
+const locator = new ServiceLocator();
 const profileService = new ProfileService();
 const renderService = new RenderService(router);
 
