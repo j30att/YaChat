@@ -1,11 +1,11 @@
 import styles from "./shared/css/common.scss"
-import routes from "./routes/Routes"
 import RouterService from "./services/RouterService";
 import RenderService from "./services/RenderService";
 import RouterLinkDirective from "./shared/directives/RouterLinkDirective";
 import ServiceLocator from "./services/ServiceLocator";
 import ChatService from "./services/ChatService";
 import ProfileService from "./services/ProfileService";
+import routes from "./Routes";
 
 const root = document.querySelector('#root');
 document.body.className = styles.clear;
