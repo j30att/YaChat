@@ -5,7 +5,7 @@ import RenderService from './Services/RenderService.js';
 import RouterLinkDirective from './shared/directives/RouterLinkDirective.js';
 import ServiceLocator from './Services/ServiceLocator.js';
 import ProfileService from './Services/ProfileService.js';
-import styles from './shared/css/common.scss';
+import styles from './Shared/css/common.scss';
 
 const root = document.querySelector('#root');
 document.body.className = styles.clear;
