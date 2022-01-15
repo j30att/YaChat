@@ -16,12 +16,12 @@ export default class RouterService {
   generatePath() {
     const URL = this.currentUrl();
     const splitPath = URL.pathname.replace(/\/$/, '').split('/').slice(1);
-    if (!splitPath.length){
-      const filter = this._tree.children.filter(item => item.default)[0];
-      if (filter){
-        window.location.href = filter.path;
-      }
-    }
+    // if (!splitPath.length){
+    //   const filter = this._tree.children.filter(item => item.default)[0];
+    //   if (filter){
+    //     window.location.href = filter.path;
+    //   }
+    // }
     return this.bfs(this._tree.children, splitPath);
   }
 
