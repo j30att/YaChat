@@ -2,7 +2,7 @@ import routes from './Routes.js';
 import ChatService from './Services/ChatService.js';
 import RouterService from './Services/RouterService.js';
 import RenderService from './Services/RenderService.js';
-import RouterLinkDirective from './shared/directives/RouterLinkDirective.js';
+import RouterLinkDirective from './Shared/Directives/RouterLinkDirective.js';
 import ServiceLocator from './Services/ServiceLocator.js';
 import ProfileService from './Services/ProfileService.js';
 import styles from './Shared/css/common.scss';
