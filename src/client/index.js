@@ -1,4 +1,4 @@
-import routes from "./client/Routes";
+import routes from "./Routes.js";
 import styles from "./shared/css/common.scss"
 import ChatService from "./services/ChatService.js";
 import RouterService from "./services/RouterService";
