@@ -30,6 +30,6 @@
     "postcss-modules": "^4.3.0"
   },
   "staticFiles": {
-    "staticPath": "src/client/shared/assets"
+    "staticPath": "src/client/Shared/assets"
   }
 }
