@@ -1,5 +1,5 @@
 import helpers from "../Shared/HandleBarsHelpers";
-import styles from "../Shared/css/AuthFroms.module.scss"
+import styles from "../Shared/css/AuthForms.module.scss"
 import BaseComponent from "../Shared/Components/BaseComponent/BaseComponent";
 
 const Handlebars = require("handlebars");
