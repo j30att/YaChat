@@ -2,7 +2,7 @@ const path = require('path')
 const express = require('express')
 const app = express();
 
-const PORT = 80;
+const PORT = 3000;
 const DIST_DIR = __dirname;
 const HTML_FILE = path.join(DIST_DIR, 'index.html')
 
@@ -14,5 +14,4 @@ app.get('*', (req, res) => {
 
 app.listen(PORT, () => {
   console.log(`App listening to ${PORT}....`)
-  console.log('Press Ctrl+C to quit.')
 })
