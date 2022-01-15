@@ -9,7 +9,7 @@
     "buildServer": "webpack",
     "build": "yarn buildServer && yarn buildClient",
     "start": "node dist/server.js",
-    "buildFront": "yarn buildServer && yarn buildClient && yarn start"
+    "buildFront": "yarn buildServer && yarn buildClient"
   },
   "author": "Igor Ippolitov",
   "license": "ISC",
