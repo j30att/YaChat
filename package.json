@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "parcel index.html",
     "buildClient": "parcel build",
-    "buildServer": "webpack"
+    "buildServer": "webpack",
+    "build": "yarn buildServer && yarn buildClient",
+    "start": "node dist/server.js"
   },
   "author": "Igor Ippolitov",
   "license": "ISC",
