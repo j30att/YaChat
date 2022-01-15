@@ -1,4 +1,4 @@
-import BaseComponent from "../shared/components/BaseComponent/BaseComponent";
+import BaseComponent from "../Shared/Components/BaseComponent/BaseComponent";
 import styles from "./ChatManagerComponent.module.scss"
 
 export default class ChatManagerComponent extends BaseComponent{

@@ -1,4 +1,4 @@
-import chats from "../shared/mockData/Chats.js"
+import chats from "../Shared/MockData/Chats.js"
 
 export default class ChatService {
   //comment
