@@ -1,11 +1,11 @@
-import styles from "./shared/css/Common.module.scss"
-import { routes } from "./Routes/Routes"
-import RouterService from "./Services/RouterService";
-import RenderService from "./Services/RenderService";
+import styles from "./shared/css/common.scss"
+import { routes } from "./routes/routes"
+import RouterService from "./services/RouterService";
+import RenderService from "./services/RenderService";
 import RouterLinkDirective from "./shared/directives/RouterLinkDirective";
-import ServiceLocator from "./Services/ServiceLocator";
-import ChatService from "./Services/ChatService";
-import ProfileService from "./Services/ProfileService";
+import ServiceLocator from "./services/ServiceLocator";
+import ChatService from "./services/ChatService";
+import ProfileService from "./services/ProfileService";
 
 const root = document.querySelector('#root');
 document.body.className = styles.clear;
