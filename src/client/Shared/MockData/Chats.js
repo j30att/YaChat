@@ -1,4 +1,4 @@
-export const chats = [
+const chats = [
   {
     id: 1,
     avatar: 'J',
@@ -120,3 +120,5 @@ export const chats = [
     createdAt: '12:45',
   },
 ];
+
+export default chats;
