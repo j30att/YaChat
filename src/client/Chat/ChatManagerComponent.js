@@ -1,7 +1,7 @@
 import BaseComponent from "../Shared/Components/BaseComponent/BaseComponent";
 import styles from "./ChatManagerComponent.module.scss"
 
-export default class ChatManagerComponent extends BaseComponent{
+export default class ChatManagerComponent extends BaseComponent {
   _template = `
     <div class="{{styles.chat}}">
       <div class="{{styles.contacts}}">
@@ -48,7 +48,7 @@ export default class ChatManagerComponent extends BaseComponent{
   _context = {
     hello: 'Выберите чат чтобы отправить сообщение',
     showHello: true,
-    styles:styles,
+    styles: styles,
   };
 
   _chatService = {};
